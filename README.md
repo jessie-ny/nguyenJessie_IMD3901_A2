@@ -1,6 +1,7 @@
 # nguyenJessie_IMD3901_A2
 
 1.Overview of what you did (i.e., what are the controls? Why this design?)
+
 I imported an environment from sketchfab. In the environment I created 4 buttons, and 2 types of objects. Users can move around the environment on a desktop with AWSD keys, and can interact with the environment with the ring shaped cursor fixed to the centre of the screen. On mobile, users can drag their finger to move around the environment or allow “motion tracking” and tilt their phones to “look” around the environment. And they can also interact with the environment with the ring shaped cursor fixed to the centre of the screen. 
 
 The environment I imported from sketchfab is a basketball court, and so using the tutorial from class, I created 4 buttons that would:
@@ -21,9 +22,7 @@ Figuring out an efficient way to create all of the cylinders and blocks. I wante
 3. What went well (i.e., how did you solve the above challenges?).
 I was able to solve the above challenges by utilizing the a-frame component “mixin”. Which allowed me to define a bundle of reusable components. So I created two mixins called “destroyCylinders” and “rotateBlocks” that I could reuse. 
 
-4. The URL to your GitHub repository: 
-
-5. Credits:
+4. Credits:
 Environment:
 - This work is based on "BasketBall Place" (https://sketchfab.com/3d-models/basketball
 place-2ffb5e2a045240e7a9809c3bca74b968) by MouradZzz °<° (https://sketchfab.com/mouradZzz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
